@@ -16,7 +16,7 @@ class ClipRRectApp extends StatefulWidget {
 
 class ClipRRectState extends State<ClipRRectApp> {
   var url =
-      "https://pixabay.com/get/ga0a1ac59021ebd94f525876cd1a8be3da5df94c244dc704992f2b953425ae4885cbbdec45e54ce10379e35f747384b40cfb83bcd4b907b356ed7c88dd8279404_1280.jpg";
+      "https://pixabay.com/get/g98a98bc240100ca2c03e7d32892ecf11bbe6392334820580ffd57ef63d8000ef87c89d71fec2b559ef7c7cd97a458a1f0f2080f90149c6200bbc7ef1a2460bf4_1280.jpg";
 
   @override
   Widget build(BuildContext context) {
