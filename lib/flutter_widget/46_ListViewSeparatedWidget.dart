@@ -27,6 +27,7 @@ class ListViewSeparatedState extends State<ListViewSeparatedApp> {
         body: ListView.separated(
           itemBuilder: (context, index) {
             return Card(
+              color: Colors.orangeAccent,
               child: Padding(
                 padding: const EdgeInsets.all(50),
                 child: Text(person[index]),
