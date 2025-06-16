@@ -74,7 +74,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<String> getData() async {
-    await Future.delayed(Duration(seconds: 3));
+    await Future.delayed(Duration(seconds: 2));
 
     imgUrl =
         'https://pixabay.com/get/gb3eeed1f9044aa71a418441f463cfd6b92ad69ce7c9771f2f4b5cb79249d4d3a0eb41b635c4155ea59b552dcda1768d4_1280.jpg';
