@@ -5,6 +5,8 @@ void main() {
 }
 
 class InkWellApp extends StatefulWidget {
+  const InkWellApp({super.key});
+
   @override
   State<StatefulWidget> createState() => _InkWellAppState();
 }
