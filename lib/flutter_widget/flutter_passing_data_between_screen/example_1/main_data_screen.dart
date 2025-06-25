@@ -1,4 +1,4 @@
-import 'package:dart/flutter_widget/flutter_passing_data_between_screen/screen_one.dart';
+import 'package:dart/flutter_widget/flutter_passing_data_between_screen/example_1/screen_one.dart';
 import 'package:flutter/material.dart';
 
 void main() {
