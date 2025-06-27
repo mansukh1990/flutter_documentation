@@ -5,6 +5,8 @@ void main() {
 }
 
 class BmiApp extends StatelessWidget {
+  const BmiApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,6 +19,8 @@ class BmiApp extends StatelessWidget {
 }
 
 class BmiAppHome extends StatefulWidget {
+  const BmiAppHome({super.key});
+
   @override
   State<StatefulWidget> createState() => _BmiAppHomeState();
 }
@@ -27,7 +31,7 @@ class _BmiAppHomeState extends State<BmiAppHome> {
   var inController = TextEditingController();
 
   var result = "";
-  var bgColor = Colors.blue.shade100;
+  var bgColor = Colors.orange.shade100;
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +42,32 @@ class _BmiAppHomeState extends State<BmiAppHome> {
         backgroundColor: Colors.blue,
       ),
       body: Container(
-        color: bgColor,
+        decoration: BoxDecoration(
+          gradient: RadialGradient(
+            center: Alignment.bottomCenter,
+            stops: [0.0, 1.0],
+            colors: [
+              Color(0xffffecd2),
+              Color(0xfffcb69f),
+              // Colors.orange.shade100,
+              // Colors.red.shade100,
+              // Colors.purple.shade100,
+            ],
+          ),
+          // gradient: LinearGradient(
+          //   begin: FractionalOffset(1.0, 0.0),
+          //   end: FractionalOffset(0.0, 1.0),
+          //   stops: [0.0, 0.2, 1.0],
+          //   colors: [
+          //     Color(0xffffecd2),
+          //     Color(0xfffcb69f),
+          //     Color(0xffa84829),
+          //     // Colors.orange.shade100,
+          //     // Colors.red.shade100,
+          //     // Colors.purple.shade100,
+          //   ],
+          // ),
+        ),
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
