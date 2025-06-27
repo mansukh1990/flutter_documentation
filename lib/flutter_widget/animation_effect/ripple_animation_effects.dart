@@ -26,7 +26,7 @@ class RippleAnimationHome extends StatefulWidget {
 
 class _RippleAnimationHomeState extends State<RippleAnimationHome>
     with SingleTickerProviderStateMixin {
-  late Animation _animation;
+  // late Animation _animation;
   late AnimationController _animationController;
 
   @override
