@@ -42,6 +42,13 @@ dependencies:
   sqflite: ^2.4.2
   path_provider: ^2.1.5
   path: ^1.9.1
+ # State Management (Choose one, here we'll use Riverpod for example)
+  flutter_riverpod: ^2.5.1 # Use the latest stable version
+  riverpod_annotation: ^2.3.5 # For code generation
+
+# Charts
+  fl_chart: ^0.68.0 # Use the latest stable version
+  connectivity_plus: ^6.1.4
 
 dev_dependencies:
   flutter_test:
